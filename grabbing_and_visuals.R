@@ -7,7 +7,7 @@ library(ggplot2)
 
 vcs_2012_2016 <-get_years_forbes_list_data(years = 2012:2016, list_name = "Top VCs")
 
-ggplot(vcs_2012_2016, aes(year, fill=gender)) + geom_bar()
+c("#FFFFFF")
 ggplot(vcs_2012_2016, aes(year, fill=country)) + geom_bar()
 
 
